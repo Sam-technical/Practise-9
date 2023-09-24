@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    top:0;
+    
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: 800;
+    /* border: 1px soslid black; */
+    width: 70%;
+    
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text{
+    /* border: 1px solid black; */
+ width:16%;
+display: flex;
+gap: 18px;
+}
+
+
+.first-section{
+    margin-top: 10px;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+.div1{
+    padding: 100px 0 0 40px;
+}
+.div1 h1{
+    font-size: 60px;
+}
+
+.div1 p{
+    font-size: 26px;
+}
+
+
+.div2{
+    padding-right: 40px;
+    
+}
+
+.div2 img{
+   border-radius: 26px;
+    
+}
+
+
+.section2{
+    border: 0.4px solid rgb(189, 187, 187);
+    height: 260px;
+    width: auto;
+    display: flex;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.section2 .text2{
+    padding: 60px 10px 0 20px;
+}
+
+
+/* Grid Section */
+
+.grid{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr ; */
+    /* gap:10px; */
+    /* column-gap: 40px; */
+    
+
+}
+
+
+.grid .one{
+    background-color: rgb(255, 255, 255);
+/* border: 1px solid black; */
+width: 90%;
+height: 400px;
+overflow: hidden;
+/* box-shadow: 1px 1px 1px rgb(100, 93, 93); */
+border: 1px solid rgb(192, 186, 186);
+border-radius: 6px;
+}
+
+.one h3{
+padding-top: 10px;
+}
+
+.text1{
+    padding:20px;
+    /* border: 1px solid; */
+   
+}
+
+.text1 a{
+    padding-left: 120px;
+}
+
+.one img{
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+
+.fly{
+    margin-top: 40PX;
+    height: 70vh;
+    width: 100;
+    /* border: 1px solid black; */
+    margin: 40px;
+   display: flex;
+   border: 1px solid rgb(180, 174, 174);
+   border-radius: 4px;
+   
+
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 160px 10px 0px 20px;
+}
+
+
+.first a{
+padding-left:480px ;
+}
+
+.float img{
+    height: 100%;
+    border-radius: 2px;
+}
+
+
+.last{
+    padding: 10px 0 10px 40px;
+    border-top: 1px solid gray;
+}
